@@ -1,0 +1,16 @@
+echo "Enter limit"
+read limit
+
+first=0
+second=1
+count=2
+echo $first
+echo $second
+while((count<=limit))
+do
+	temp=`echo "$first+$second"|bc`
+	first=$second
+	second=$temp
+	echo $temp
+	((count++))
+done

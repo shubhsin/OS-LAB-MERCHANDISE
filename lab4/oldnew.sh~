@@ -1,0 +1,6 @@
+echo "Enter first filename"
+read firstfile
+echo "Enter second filename"
+read secondfile
+
+if [$firstfile -ot                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

@@ -1,0 +1,21 @@
+echo "Enter n"
+read n
+
+greatest=0
+smallest=999
+for((i=0;i<n;i++))
+do
+	read x
+	if(($x>$greatest))
+	then
+	greatest=$x
+	fi
+	if(($x<$smallest))
+	then
+	smallest=$x
+	fi
+done
+
+echo "Greatest number is $greatest"
+echo "Smallest number is $smallest"
+
